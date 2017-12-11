@@ -60,6 +60,7 @@ fabric.properties
 
 *.iml
 modules.xml
+haxe.xml
 .idea/misc.xml
 *.ipr
 
