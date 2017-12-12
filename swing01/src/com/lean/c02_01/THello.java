@@ -6,10 +6,10 @@ package com.lean.c02_01;
  */
 
 import javax.swing.*;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
 
 public class THello extends JApplet {
+
+    private static final String PATH = Thread.currentThread().getContextClassLoader().getResource("").getPath();
 
     public static void main(String[] args) {
         THello helloApplet = new THello();
@@ -24,13 +24,6 @@ public class THello extends JApplet {
 
     @Override
     public void init() {
-        getContentPane().add(new JLabel("Hello Swing World", JLabel.CENTER));
-    }
-
-    static class WindowEventHandler extends WindowAdapter {
-        @Override
-        public void windowClosing(WindowEvent e) {
-            System.exit(0);
-        }
+        getContentPane().add(new JLabel("Hello Swing World", new ImageIcon(PATH + "AnimSpeaker.gif"), JLabel.CENTER));
     }
 }
