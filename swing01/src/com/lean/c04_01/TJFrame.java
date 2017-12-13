@@ -4,15 +4,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
 
 public class TJFrame extends JFrame {
 
     Container container = null;
-
-    public static void main(String[] args) {
-        TJFrame frame = new TJFrame("Swing Frame");
-    }
 
     public TJFrame(String title) {
         super(title);
@@ -29,6 +24,10 @@ public class TJFrame extends JFrame {
         setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         setSize(350, 200);
         setVisible(true);
+    }
+
+    public static void main(String[] args) {
+        TJFrame frame = new TJFrame("Swing Frame");
     }
 
     private class WindowEventHandler extends WindowAdapter {
