@@ -4,5 +4,24 @@
  */
 package com.lean.c03_03;
 
-public class TMouseMotion  {
+import javax.swing.*;
+import java.awt.*;
+
+public class TMouseMotion extends JApplet {
+
+
+    @Override
+    public void init() {
+        super.init();
+    }
+
+    @Override
+    public void update(Graphics g) {
+        super.update(g);
+    }
+
+    @Override
+    public void paint(Graphics g) {
+        super.paint(g);
+    }
 }

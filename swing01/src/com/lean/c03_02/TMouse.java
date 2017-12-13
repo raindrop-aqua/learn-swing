@@ -37,6 +37,7 @@ public class TMouse extends JApplet implements MouseListener {
         paint(g);
     }
 
+    @Override
     public void paint(Graphics g) {
         g.setColor(Color.blue);
         g.drawString("Click the Mouse Button...", 5, 20);
