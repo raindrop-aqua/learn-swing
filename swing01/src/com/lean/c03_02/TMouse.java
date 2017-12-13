@@ -15,7 +15,6 @@ public class TMouse extends JApplet implements MouseListener {
     private int width, height;
     private int x, y;
     private int flag;
-    private String mouseState;
 
     @Override
     public void init() {
