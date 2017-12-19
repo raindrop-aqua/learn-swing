@@ -2,7 +2,7 @@
  * <applet code=TMouse width=400 height=200>
  * </applet>
  */
-package com.lean.c03_02;
+package com.learn.c03_02;
 
 import javax.swing.*;
 import java.awt.*;

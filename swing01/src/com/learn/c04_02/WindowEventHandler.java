@@ -1,4 +1,4 @@
-package com.lean.c04_02;
+package com.learn.c04_02;
 
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;

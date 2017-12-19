@@ -2,7 +2,7 @@
  * <applet code=TActionEvent width=300 height=200>
  * </applet>
  */
-package com.lean.c03_01;
+package com.learn.c03_01;
 
 import javax.swing.*;
 import java.awt.*;

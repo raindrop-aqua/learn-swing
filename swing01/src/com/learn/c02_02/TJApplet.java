@@ -2,7 +2,7 @@
  * <applet code=TJApplet width=200 height=150>
  * </applet>
  */
-package com.lean.c02_02;
+package com.learn.c02_02;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,4 +1,4 @@
-package com.lean.c03_03;
+package com.learn.c03_03;
 
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;

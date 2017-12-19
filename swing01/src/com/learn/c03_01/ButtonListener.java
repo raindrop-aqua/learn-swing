@@ -1,4 +1,4 @@
-package com.lean.c03_01;
+package com.learn.c03_01;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;

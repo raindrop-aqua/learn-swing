@@ -2,7 +2,7 @@
  * <applet code=TKeyEvent width=350 height=100>
  * </applet>
  */
-package com.lean.c03_04;
+package com.learn.c03_04;
 
 
 import javax.swing.*;

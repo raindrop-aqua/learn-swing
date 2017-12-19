@@ -2,7 +2,7 @@
  * <applet code=THello width=300 height=150>
  * </applet>
  */
-package com.lean.c02_01;
+package com.learn.c02_01;
 
 import javax.swing.*;
 

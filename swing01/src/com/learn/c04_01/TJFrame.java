@@ -1,4 +1,4 @@
-package com.lean.c04_01;
+package com.learn.c04_01;
 
 import javax.swing.*;
 import java.awt.*;
